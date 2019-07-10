@@ -1,6 +1,6 @@
 # board
 
-# 先建立資料庫
+# 資料庫
 CREATE DATABASE board default character set utf8;
 
 CREATE TABLE `boards` (
@@ -67,7 +67,13 @@ COMMIT;
 
 # 說明
 
-新增登入功能, 資料庫有一筆 user 資料, 帳號 admin 密碼 123456
-公告部分已經有先塞一些資料
-新增分頁功能, 每頁5筆
-有做權限控管, 未登入只能檢視, 登入後可以新增修改刪除
+新增登入功能, 資料庫有一筆 user 資料, 帳號 admin 密碼 123456  
+公告部分已經有先塞一些資料  
+新增分頁功能, 每頁5筆  
+有做權限控管, 未登入只能檢視, 登入後可以新增修改刪除  
+
+# 步驟
+
+php artisan migrate  
+
+php artisan serv
