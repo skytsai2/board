@@ -74,6 +74,8 @@ COMMIT;
 
 # 步驟
 
-php artisan migrate  
+更改 .env 檔, 修改資料庫連線資訊
 
-php artisan serv
+直接下上面的SQL語法  
+
+執行 php artisan serve  
